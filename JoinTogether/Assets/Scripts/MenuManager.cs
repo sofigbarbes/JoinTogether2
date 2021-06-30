@@ -34,6 +34,7 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
+        Time.timeScale = 1f;
         MenuScreen.SetActive( false );
         DiedScreen.SetActive( false );
         WinScreen.SetActive( false );
